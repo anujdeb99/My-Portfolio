@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cover-area{
+    background-image: url(img/anuj.jpeg);
+    background-size: cover;
+    height: 630px;
+}
+header * {
+    display: inline;
+}
+.navbar{
+    display:flex;
+        text-align: right;
+
+}
+.menu{
+    margin-top: 30px;
+
+}
+.menu li a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    background-color:#34ace0;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.menu li a:hover{
+    background-color:#ffa502;
+    transition: 1s;
+}
+span{
+    color: orange;
+}
+.short-details{
+    margin: 150px 20px 40px 40px;
+}
+.short-details h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.short-details p {
+    font-size: 20px;
+    color: wheat;
+}
+
+.link-btn a{
+    margin-left: 40px;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 8px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
