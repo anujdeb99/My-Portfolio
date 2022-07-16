@@ -1,60 +1,142 @@
 *{
-    padding: 0;
     margin: 0;
+    padding:0;
 }
+
+
 .cover-area{
     background-image: url(img/anuj.jpeg);
     background-size: cover;
-    height: 630px;
+    height: 620px;
 }
-header * {
-    display: inline;
+header{
+    display: flex;
 }
-.navbar{
-    display:flex;
-        text-align: right;
-
+.hover-btn{
+    margin: 40px 0px 10px 40px;
 }
-.menu{
+.hover-item a{
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+.hover-item a:hover{
+    background-color: white;
+    color: black;
+    transition: 3s;
+}
+span{
+    color: orangered;
+}
+.imagination{
+    margin-top: 120px;
+}
+.imagination h1{
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.imagination p{
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.started-link{
+    margin-top: 60px;
+}
+.started-link a{
+    margin-left: 60px;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.started-link a:hover{
+    background-color: white;
+    color:black;
+    transition: 3s;
+}
+.success-area{
+    display: flex;
+    background-color: black;
+    height: 350px;
+}
+span{
+    color: orangered;
+}
+.give-success{
+    padding-top: 60px;
+    width: 50%;
+}
+.give-success h1{
+    margin-left: 80px;
+    color: white;
+    font-size: 25px;
+}
+.give-success p{
+    color: white;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.download-cv{
     margin-top: 30px;
 
 }
-.menu li a{
-    margin-left: 40px;
+.download-cv a{
+    color: black;
+    margin-left: 80px;
     text-decoration: none;
-    color: white;
-    background-color:#34ace0;
+    font-weight: bold;
+    background-color: yellow;
     padding: 5px;
     border-radius: 8px;
     font-size: 20px;
 }
-.menu li a:hover{
-    background-color:#ffa502;
-    transition: 1s;
+.success-video{
+    width: 50%;
 }
-span{
-    color: orange;
+.success-video video{
+    height: 350px;
+    width: 400px;
 }
-.short-details{
-    margin: 150px 20px 40px 40px;
+.experience-value{
+    padding-top: 30px;
+    margin-left: 80px;
 }
-.short-details h1{
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
-    line-height: 1.5em;
+.experience-value  p{
+    font-size: 18px;
 }
-.short-details p {
-    font-size: 20px;
-    color: wheat;
+.experience-skill{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
+.skill{
+    background-color: rgb(58, 53, 53);
+    margin: 0px 10px 0px 30px;
+    width: 335px;
+    height: 150px;
+    padding: 50px 20px 50px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px  10px 30px #485460;
 
-.link-btn a{
-    margin-left: 40px;
-    text-decoration: none;
-    background-color: tomato;
-    padding: 8px;
-    border-radius: 7px;
+}
+.skill h1{
     color: white;
-    font-size: 20px;
+}
+.skill p{
+    color: white;
+}
+.skill:hover{
+    background-color: rgba(0, 119, 255, 0.822);
+    transition: 2s;
 }
